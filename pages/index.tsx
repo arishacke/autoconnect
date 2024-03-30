@@ -30,6 +30,11 @@ const Home: NextPage = () => {
           <div className={styles.connect}>
             <ConnectWallet />
           </div>
+                                  <div class="action text-left ">
+                            <a href="point/index.html" class="myBtn">
+                                <div class="btn btn-default-purple-fill me-3 mt-3">Connect Wallet</div>
+                            </a>
+                        </div>
         </div>
         </div>
     </main>
