@@ -22,19 +22,12 @@ const Home: NextPage = () => {
           </h1>
 
           <p className={styles.description}>
-            Get started by configuring your desired network in{" "}
-            <code className={styles.code}>src/index.js</code>, then modify the{" "}
-            <code className={styles.code}>src/App.js</code> file!
+            Get started by connecting your desired network
           </p>
 
           <div className={styles.connect}>
             <ConnectWallet />
           </div>
-                                  <div class="action text-left ">
-                            <a href="point/index.html" class="myBtn">
-                                <div class="btn btn-default-purple-fill me-3 mt-3">Connect Wallet</div>
-                            </a>
-                        </div>
         </div>
         </div>
     </main>
